@@ -18,6 +18,7 @@ class BonusServiceTest {
         //производим проверку
         assertEquals(expected, actual);
     }
+
     // 2. второй тест
     @org.junit.jupiter.api.Test
     void shouldCalculateForRegisteredAndOverLimit() {
@@ -34,6 +35,7 @@ class BonusServiceTest {
         //производим проверку
         assertEquals(expected, actual);
     }
+
     // 3. третий тест
     @org.junit.jupiter.api.Test
     void shouldCalculateForNoRegisteredAndUnderLimit() {
@@ -50,6 +52,7 @@ class BonusServiceTest {
         //производим проверку
         assertEquals(expected, actual);
     }
+
     // 4. четвертый тест
     @org.junit.jupiter.api.Test
     void shouldCalculateForNoRegisteredAndOverLimit() {
